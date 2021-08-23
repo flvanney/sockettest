@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test io</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1>Tu vieja</h1>
+    <div id="noti"></div>
+    <form onsubmit="return nuevaNotificacion(this)">
+        <input type="text" id="id" placeholder="id">
+        <input type="text" id="text" placeholder="texto">
+        <input type="submit" value="se pikup">
+    </form>
+</body>
+</html>
